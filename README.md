@@ -30,11 +30,11 @@ A Python script that randomly selects and moves a specified number of PNG images
        python image_dataset_balancer.py
 
 ## Example
-
+   ```bash
   source_dir = r"path\to\source\directory"
   dest_dir = r"path\to\destination\directory"
   number_of_images_to_move = 400
-
+   ```
 ## Important Notes
   1. Ensure that the source directory contains enough PNG images to meet the specified number. The script will notify you if there are not enough images available.
   2. The script only works with PNG files. If you need to work with other formats, you can modify the file extension check in the script.
